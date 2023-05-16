@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@400;700&display=swap" rel="stylesheet">
+  <title>Frontend Mentor | QR code component</title>
+  <style>
+    body {
+      background-color: hsl(212, 45%, 89%);
+      font-family: 'Outfit', sans-serif;
+      font-size: 15px;
+      text-align: center;
+    }
+    h1 {
+      font-size: 1.3rem;
+    }
+    .container {
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .card {
+      max-width: 200px;
+      padding: 15px;
+    }
+    .r-borders {
+      border-radius: 10px;
+    }
+    .qrimg{
+      max-width: 200px;
+    }
+    .fc-gblue {
+      color:hsl(220, 15%, 55%);
+    }
+    .fc-dblue {
+      color: hsl(218, 44%, 22%);
+    }
+    .bg-white {
+      background-color: hsl(0, 0%, 100%);
+    }
+    .px-15 {
+      padding-left: 18px;
+      padding-right: 18px;
+    }
+    @media (min-width: 375px) {
+      .card {
+      max-width: 300px;
+    }
+      .qrimg {
+        max-width: 300px;
+    }
+}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <div class="card r-borders bg-white">
+      <div><img class="qrimg r-borders" src="./images/image-qr-code.png" /></div>
+      <div>
+        <h1 class="fc-dblue">Improve your front-end skills by building projects</h1>
+        <p class="fc-gblue hp-18">Scan the QR code to visit Frontend Mentor and take your
+           coding skills to the next level</p>
+      </div>
+  </div>
+  </div>
+</body>
+</html>
