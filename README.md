@@ -20,7 +20,7 @@ This is the 'tutorial' challenge when you start using Frontend Mentor. It is mea
 
 ### Links
 
-- Solution URL: [QR Component]([https://your-solution-url.com](https://hoyosdev.github.io/qrcomponent/))
+- Solution URL: [QR Component]([https://hoyosdev.github.io/qrcomponent/])
 
 ### Built with
 
